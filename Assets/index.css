@@ -1,7 +1,7 @@
 
 body{
   font-family: poppins;
-  background-image:url(bg-intro-desktop.png);
+  background-image:url(/bg-intro-desktop.png);
 background-color: hsl(0, 100%, 74%) ;
 }
 .text-container{
@@ -12,7 +12,7 @@ margin-right: 100px;
 }
 .container{
 width: 1440px;
-background-image:url(bg-intro-desktop.png);
+background-image:url(/bg-intro-desktop.png);
 background-color: hsl(0, 100%, 74%) ;
 }
 
