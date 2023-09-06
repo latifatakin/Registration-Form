@@ -24,7 +24,7 @@ Users should be able to:
   - Any `input` field is empty. The message for this error should say *"[Field Name] cannot be empty"*
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Site URL](https://astounding-lamington-96bbba.netlify.app/))
 
 ### Built with
 - HTML5 
