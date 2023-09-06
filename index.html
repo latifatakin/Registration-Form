@@ -3,55 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    img{
-      width: 598px;
-      float: right;
-    }
-.container{
-  width: 1440px;
-}
-#reading{
-  width:598px;
-  float: right;
-}
-  </style>
+  <title>Registration Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/Assets/index.css">
 </head>
 <body>
+<section id="intro">
   <div class="container">
-    <img src="./pexels-wilson-vitorino-2167677.jpg" alt="a girl reading ">
-<h3>
-  Get access to your favourite books with ease
-</h3>
-<form action="">
-  <main>
-    <div class="fname">
-    <label for="first-name">First Name</label>
-    <input type="text" id="first-name">
-  </div>
-<br>
-  <div class="lname">
-    <label for="last-name">Last Name</label>
-    <input type="text" id="last-name">
-  </div>
-  <br>
-  <div class="em">
-    <label for="email">Email</label>
-    <input type="text" id="email">
-  </div>
-  <br>
-  <div class="pword">
-    <label for="password">Password</label>
-    <input type="text" id="Password">
-  </div>
- </main>
-</form>
-<br>
-<button class="button">Create Account</button>
-<br>
-<p>Already have an Account? <span>Login</span></p>
+ <div class="leftdiv">
+  <h2 id="title">Learn to code by watching others</h2>
+  <p id="sub-text">See how experienced developers solve problem in real-time watching scripted tutorials is great but understanding how developers think is invaluable</p>
+ </div>
 
-  </div>
+ <div class="rightdiv">
+<div class="form-offer">
+  <p id="offer">Try it free 7 days <span id="mo">then $20/mo. thereafter</span></p>
+</div>
+
+  <div class="form">
+  <form action="">
+    <main>
+      <div class="fname">
+      <label for="first-name"></label>
+      <input type="text" placeholder="First Name"  id="first-name" required oninvalid="this.setCustomValidity('First name cannot be Empty')">
+    </input>>
+    </div>
+
+    <div class="lname">
+      <label for="last-name"></label>
+      <input type="text"  placeholder="Last Name" id="last-name" required oninvalid="this.setCustomValidity('Last name cannot be Empty')">
+    </div>
+ 
+    <div class="em">
+      <label for="email"></label>
+      <input type="text" placeholder="Email Address"  id="email" required oninvalid="this.setCustomValidity('Email cannot be Empty')">
+    </div>
+  
+    <div class="pword">
+      <label for="password"></label>
+      <input type="text" placeholder="Password" id="Password" required oninvalid="this.setCustomValidity('Password cannot be Empty')">
+    </div>
+    <br>
+    <button class="button">CLAIM YOUR FREE TRIAL</button>
+    <br>
+    <p id="t-c">By clicking button, you are agreeing to our <span id="tc">Terms and Conditions</span></p>
+   </main>
+  </form>
+</div>
+
+</div>
+</section>
 </body>
 </html>

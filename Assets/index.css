@@ -1,8 +1,144 @@
 
-.container{
-  width: 1440px;
+body{
+  font-family: poppins;
+  background-image:url(bg-intro-desktop.png);
+background-color: hsl(0, 100%, 74%) ;
 }
-#reading{
-  width:598px;
-  float: right;
+.text-container{
+margin-left: 100px;
+}
+.form{
+margin-right: 100px;
+}
+.container{
+width: 1440px;
+background-image:url(bg-intro-desktop.png);
+background-color: hsl(0, 100%, 74%) ;
+}
+
+
+#title{
+width: 300px;
+font-size: 32px;
+font-weight: 600;
+color: white;
+margin-bottom: 0px;
+}
+#sub-text{
+font-size: 12px;
+font-weight: 200;
+width: 400px;
+color: white;
+margin-top: 12px;
+}
+#offer{
+font-size: 12px;
+font-weight: 500px;
+text-align: center;
+color: white;
+width: 414px;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color:hsl(248, 32%, 49%) ;
+border-radius: 5px;
+}
+
+#mo{
+color:hsl(246, 25%, 77%)
+}
+.fname, .lname, .em, .pword, input{
+font-family: poppins;
+font-size: 12px;
+font-weight: 400;
+width:340px;
+height: 32px;
+margin-bottom: 0px;
+margin-top: 16px;
+}
+
+.form{
+background-color: white;
+width: 414px;
+display: flex; 
+justify-content: center; 
+text-align: center;
+border-radius: 5px;
+padding-top: 16px;
+padding-bottom: 16px;
+}
+
+.button{
+width: 350px;
+height: 32px;
+font-family: poppins;
+font-size: 12px;
+background-color:hsl(154, 59%, 51%) ;
+color: white;
+border-style: hidden;
+margin-top: 12px;
+}
+#t-c{
+font-family: poppins;
+font-size: 10px;
+color: hsl(246, 25%, 77%)
+}
+#tc{
+color: hsl(0, 100%, 74%) ;
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+max-width: 1440;
+margin: 100px;
+}
+
+.leftdiv{
+width: 30%;
+float: left;
+padding-right: 0px;
+}
+
+.rightdiv{
+width: 30%;
+float: right;
+padding-left: 0px;
+}
+
+@media screen and (max-width:600px) and (min-width: 375px) {
+#title{
+width: auto;
+font-size: 28px;
+margin-top: 100px;
+text-align: center;
+}
+#sub-text{
+font-size: 12px;
+width: auto;
+text-align: center;
+}
+
+.container{
+background-image:url(bg-intro-mobile.png);
+background-color: hsl(0, 100%, 74%) ;
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: auto;
+margin: auto;
+}
+.leftdiv{
+width: 80%;
+
+}
+.rightdiv{
+width: 80%;
+}
+#offer{
+align-self: auto;
+}
 }
